@@ -1,7 +1,7 @@
 # How to Play Rochambeau
 Configure the host in src.server.config.py 
 ``` HOST = '127.0.0.1' ``` 
-Run the program from the top level. \n
+Run the program from the top level. <br>
 
 Run the server from terminal: 
 ``` python -m src.server.Server ``` 
