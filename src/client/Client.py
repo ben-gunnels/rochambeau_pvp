@@ -38,6 +38,9 @@ def listen():
         except:
             continue
         try:
+            if msg == "quit":
+                isListening = 0
+                break
             print(msg)
         except Exception as p:
             pass
